@@ -14,6 +14,9 @@ function App() {
         <p>
           RSVP S3
         </p>
+        <div className="mt-auto mr-auto acknowledgements">
+          CK, Shane, Lucie
+        </div>
       </header>
     </div>
   );
