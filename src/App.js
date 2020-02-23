@@ -15,7 +15,7 @@ function App() {
           RSVP S3
         </p>
         <div className="acknowledgements">
-          CK, Shane, Lucie
+          Made by CK, Shane and Lucie
         </div>
       </header>
     </div>
