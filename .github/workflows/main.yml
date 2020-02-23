@@ -24,9 +24,9 @@ jobs:
     - name: Production Build
       run: |
         yarn build
-    - name: Unit Tests
-      run: |
-        yarn test
+    # - name: Unit Tests
+    #   run: |
+    #     yarn test
     - name: Deploy
       env:
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
