@@ -14,6 +14,7 @@ import history from './helpers/history'
 
 // Style
 import './index.scss'
+import './style/main.scss'
 
 ReactDOM.render(
   <Router history={history}>
