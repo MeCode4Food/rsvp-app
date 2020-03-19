@@ -5,8 +5,9 @@ import * as serviceWorker from './serviceWorker'
 
 // Component
 import App from './App'
-import About from './about'
-import ErrorPage from './error'
+import About from './containers/about'
+import ErrorPage from './containers/error'
+import ScrollToTop from './components/scroll-to-top'
 
 // Helpers
 import history from './helpers/history'
@@ -16,11 +17,13 @@ import './index.scss'
 
 ReactDOM.render(
   <Router history={history}>
-    <Switch>
-      <Route exact path='/' component={App} />
-      <Route exact path='/about' component={About} />
-      <Route component={ErrorPage} />
-    </Switch>
+    <ScrollToTop>
+      <Switch>
+        <Route exact path='/' component={App} />
+        <Route exact path='/about' component={About} />
+        <Route component={ErrorPage} />
+      </Switch>
+    </ScrollToTop>
   </Router>,
   document.getElementById('root')
 )
