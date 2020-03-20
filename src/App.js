@@ -9,13 +9,13 @@ function App() {
       <header className='App-header'>
         <img src={logo} className='App-logo' alt='logo' />
         <div>
-          My Name is <Link to={`about`}>Chee Khuin</Link>
+          Shane is a  <Link to={`about`}>mate</Link>
         </div>
-        <div>Sometimes CK</div>
-        <div>I have a mane</div>
-        <div>I eat balloon</div>
+        <div>I cycle on road</div>
+        <div>Shane is late</div>
+        <div>I code in Node</div>
         <p>RSVP S3</p>
-        <div className='acknowledgements'>Made by CK, Shane and Lucie</div>
+        <div className='acknowledgements'>Made by CK, Shane and <Link to={`lucie`}>Lucie</Link></div>
       </header>
     </div>
   )

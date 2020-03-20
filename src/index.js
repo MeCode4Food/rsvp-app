@@ -6,6 +6,7 @@ import * as serviceWorker from './serviceWorker'
 // Component
 import App from './App'
 import About from './containers/about'
+import Lucie from './containers/lucie'
 import ErrorPage from './containers/error'
 import ScrollToTop from './components/scroll-to-top'
 
@@ -22,6 +23,7 @@ ReactDOM.render(
       <Switch>
         <Route exact path='/' component={App} />
         <Route exact path='/about' component={About} />
+        <Route exact path='/lucie' component={Lucie} />
         <Route component={ErrorPage} />
       </Switch>
     </ScrollToTop>
